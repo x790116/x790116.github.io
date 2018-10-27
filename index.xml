@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>This is DZ&#39;s Blog</title>
+    <link>x790116.github.io/</link>
+    <description>Recent content on This is DZ&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="x790116.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2108-10-25(四) 呂毅 CSPO Day1 &#43; 系統思維</title>
+      <link>x790116.github.io/posts/cspo_day1/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>x790116.github.io/posts/cspo_day1/</guid>
+      <description>FIRST-ORDER FACTOR  專案開始之初, 首重(手中)看見全貌 中原標準時間： 2018-10-26(五) 23:30&amp;hellip;
+是的你沒看錯 我到了 2018-10-26(五) 最後 30 分鐘
+ 尚未交付 2018-10-25(四) 當天心得
+雖然我的後面幾段都是 2018-10-26(五) 23:30 前都已經完成
+但我現在還在補完整篇文章的第一段, 並試圖做最後的確認與檢查 會這麼做的原因, 便是因為我在乎這篇文章的 品質(Quality)
+從 Day1, Day2, Day3&amp;hellip; 開始往後
+ 第一個迭代的目的是要給出 Prototype 並試圖收集 Feedback
+第二個迭代的目的是要針對 Feedback 並試圖 Inspect 一些東西, 並進行 Adapt
+第三個迭代之後的目的則應該是要著重在 Quality 並且因為有過去的 Legacy 需要 Fix Bug or Refactoring
+ 打著打著, 時間已經接近 23:45
+距離午夜的 Timebox 已經剩下最後 15 min&amp;hellip;
+我想&amp;hellip; 就以目前版本先交付吧&amp;hellip; 需要調整的待日後再行調整&amp;hellip;
+PO - Product Owner  Build Your Own Scrum PO 會涉入較多的部分  Product Backlog 的內容與排序 Sprint Backlog 的內容拆分與細節  Refinement or Planning #1 , 兩個時機點去進行  Release 的計畫, 目標達成度, 成效數據, 價值等等&amp;hellip;  Review Meeting 這個時機點去進行, 以終為始！     PO 在 Scrum 中扮演的角色：協作者  PO 主要的職責, 不是需求釐清者 需求釐清是 PO 跟 Team 共同的責任 PO 需關注 Product Backlog Item 能否驅動 目標 PO 需關注 Release 的產出物能否達到 目標 PO 的職責, 是找到產品的 價值 , 找到有 價值 的工作！   &amp;gt; ### PO 比起 Team 更需關注顆粒度較大的面向 產品願景 - Product Vision  電梯測試  在特定電梯樓層行的過程中, 快速將你的產品願景傳達給他人    以 91APP 為主軸, 發想公司的產品願景, 以 OMO 現象為例  換位思考   產品探索 - Product Discovery  Design Thinking  問題 - Problem 解決方案 - Solution Problem 跟 Solution 都是先發散～ 再收斂＊   上課播放影片(中文字幕版)： * IDEO Shopping Cart Project 中文字幕</description>
+    </item>
+    
+    <item>
+      <title>2108-10-24(三) 呂毅 CSM Day2</title>
+      <link>x790116.github.io/posts/csm_day2/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>x790116.github.io/posts/csm_day2/</guid>
+      <description>Inspect &amp;amp; Adapt 昨天交付了 第一個 流水帳 版本的 Day1 心得
+仔細回想一下昨天的寫作方式, 就是一直看著自己的上課筆記
+然後跟瘋狂打字員般的將筆記中的片段輸入到電腦之中
+而自己對於 思考 與 反饋 這件事, 並無太多的琢磨
+心中所想的只有 我要趕快把今天的內容都記錄下來, 這樣才不會忘記
+但是到今天 Day2 時開始收到了一些朋友與同事的反饋與建議
+再重看了一次昨天的 Day1 筆記, 這時候就豁然開朗了一些 AHA ～～～
+ 原來昨天就是在實行第一個 Walking Skeleton (或稱 MVP or 內褲版本)  藉由第一天的迭代交付出第一個不那麼完美的版本, 進行 Inspect
+然後快速的在第二天收到 Feedback , 進而 Adapt 來做出一些改善
+所以今天這篇 Day2 的心得筆記, 就不再瘋狂的類似 極限編程 般的將筆記輸入電腦之中
+取而代之的是下課後先跟同事一起吃飯聊聊, 後續再到咖啡廳交換交換上課心得
+最後才有了現在這篇文章的誕生, 而且打到這邊才發現
+ 我完成了文章第一段的時間, 才恰好到我昨天交付 流水帳 的時間點 - 22:15 我不要太多, 但要一直有 Day2 的課程圍繞在 4 個領域 1.</description>
+    </item>
+    
+    <item>
+      <title>2108-10-23(二) 呂毅 CSM Day1</title>
+      <link>x790116.github.io/posts/csm_day1/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>x790116.github.io/posts/csm_day1/</guid>
+      <description>終於開啟了第一篇寫部落格的計畫
+先前參加了 CSD, DevOpsDays 2018, 公司內部 AWS 教育訓練
+都是上課很認真, 下課很天真 (誤)
+希望日後都可以將心得補起來&amp;hellip; 吧
+這次就先由連續四天 CSM+CSPO 的心得來記錄 希望可以每天課後紀錄, 持續交付 (富奸退散) 在課堂一開始, 呂毅老師就告訴我們一個很重要的觀念
+ 如何將上課的內容內化, 並帶回團隊甚至影響公司, 是一大重點！  我想這個觀念應該要讓每一個參與 Scrum 相關認證的人都謹記在心
+因為往往看到很多人都是為了拿認證而拿認證
+但是看了一些案例, 才發現時真正的高手都是 藏在民間
+ 意思就是必須經過不斷的練習與實務上的應用, 才能真正將這些方法落實  扯遠了&amp;hellip; 接下來我們來回顧一下第一天的一些內容與練習 首先是學員問題, 下面我先將我自己提出的問題給列出 写下您对参加这个课程的目标发给我，我们也会在课程开始时分享。
+  如何更了解 Scrum 落實 Agile 相關精神, 卻不會不小心被框架綁架？ 如何有效的召開一個好的 Retro, 並讓每個人都能有收穫並持續改善？ 究竟 Scrum Master 是專職較好？還是團隊成員兼任有幫助？ 如何利用 Scrum 甚至是 Kanban 落實在團隊之中, 尤其是運維團隊？ Scrum Master 相關的軟技能該如何被量化？如何呈現出他的價值？   接下來的是其他同學提問較有印象的部分  Scrum 有 Deadline 這樣會不會衝突？</description>
+    </item>
+    
+  </channel>
+</rss>
