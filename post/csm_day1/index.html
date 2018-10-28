@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.49.2" />
+
+  <title>呂毅 CSM Day1 &middot; This is DZ&#39;s Blog</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://x790116.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://x790116.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://x790116.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://x790116.github.ioimg/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://x790116.github.io/">Jingangz</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://x790116.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://x790116.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/jingangz" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/x790116" target="_blank"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://youtube.com/user/x790116" target="_blank"><i class="fa fa-youtube-square fa-fw"></i>YouTube</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://slideshare.net/davidzhang91" target="_blank"><i class="fa fa-slideshare fa-fw"></i>SlideShare</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/davidzhang91" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/x790116" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://bitbucket.org/davidzhang91" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>呂毅 CSM Day1</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>2018-10-23</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://x790116.github.iotags/csm">CSM</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://x790116.github.iotags/scrum">Scrum</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://x790116.github.iotags/agile">Agile</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://x790116.github.iotags/odd-e">Odd-e</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  
+
+<h1 id="2018-10-23-二-呂毅-csm-day1">2018-10-23(二) 呂毅 CSM Day1</h1>
+
+<p>終於開啟了第一篇寫部落格的計畫</p>
+
+<p>先前參加了 CSD, DevOpsDays 2018, 公司內部 AWS 教育訓練</p>
+
+<p>都是上課很認真, 下課很天真 (<del>誤</del>)</p>
+
+<p>希望日後都可以將心得補起來&hellip; 吧</p>
+
+<h5 id="這次就先由連續四天-csm-cspo-的心得來記錄">這次就先由連續四天 CSM+CSPO 的心得來記錄</h5>
+
+<h5 id="希望可以每天課後紀錄-持續交付-富奸退散">希望可以每天課後紀錄, 持續交付 <del>(富奸退散)</del></h5>
+
+<hr />
+
+<p>在課堂一開始, 呂毅老師就告訴我們一個很重要的觀念
+&gt; #### 如何將上課的內容內化, 並帶回團隊甚至影響公司, 是一大重點！</p>
+
+<p>我想這個觀念應該要讓每一個參與 Scrum 相關認證的人都謹記在心</p>
+
+<p>因為往往看到很多人都是為了拿認證而拿認證</p>
+
+<p>但是看了一些案例, 才發現時真正的高手都是 <strong>藏在民間</strong>
+&gt; #### 意思就是必須經過不斷的練習與實務上的應用, 才能真正將這些方法落實</p>
+
+<h2 id="扯遠了-接下來我們來回顧一下第一天的一些內容與練習">扯遠了&hellip; 接下來我們來回顧一下第一天的一些內容與練習</h2>
+
+<hr />
+
+<p>首先是學員問題, 下面我先將我自己提出的問題給列出
+&gt; 写下您对参加这个课程的目标发给我，我们也会在课程开始时分享。</p>
+
+<pre><code>1. 如何更了解 Scrum 更落實 Agile 相關精神, 但卻又不會不小心被框架給綁架？
+2. 如何有效的召開一個好的回顧會議 (Retro), 並讓每個人都能有所收穫並持續進步改善？
+3. 究竟是專職的 Scrum Master 較好？抑或是團隊成員兼任 Scrum Master 有幫助？
+4. 如何利用 Scrum 甚至是 Kanban 落實在團隊之中, 尤其是運維團隊？
+5. Scrum Master 相關的軟技能該如何被量化？如何呈現出他的價值？
+</code></pre>
+
+<p>接下來的是其他同學提問較有印象的部分</p>
+
+<pre><code>1. Scrum 有 Deadline 這樣會不會衝突？
+   &gt; 同學... Scrum 有 Timebox 的概念... 所以也有 Deadline 呀...
+    
+2. 開發的目標太大, 請問要如何應對與調整
+   &gt; 在接下來的 Sprint Planning &amp; Sprint Backlog 會提到
+
+3. 一個 Scrum Master 面對提問時如何有耐心不要說出答案?
+   &gt; 這或許不是個問題, 你要當作你自己也不知道問題的答案
+   &gt; 又或者說, 你認為的這個答案真的是正確的嗎？
+    
+4. 公司的組織一直在變動, 導致 Scrum Team(SM+PO+Team) 一直變怎辦？
+   &gt; 理想上 Scrum Team 的成員是盡量不要一直變動
+   &gt; 因為就是需要這個成熟的 Team 來適應不斷變動的需求與市場
+   &gt; 但如果一直變動, 考驗的就是 SM 重塑團隊凝聚力的地方了
+</code></pre>
+
+<hr />
+
+<h3 id="scrum-master-的職責">Scrum Master 的職責</h3>
+
+<ol>
+<li>Coach Team</li>
+<li>Coach PO</li>
+<li>Facilitate(引導) - <strong><em>這也是最重要的！</em></strong></li>
+<li>No answers, just questions.</li>
+</ol>
+
+<h3 id="而常常聽到-scrum-還有-agile-敏捷-兩者的關係是">而常常聽到 Scrum 還有 Agile(敏捷) ,兩者的關係是&hellip;？</h3>
+
+<blockquote>
+<h2 id="scrum-is-one-of-agile-engineering-practice">Scrum is one of Agile Engineering Practice</h2>
+
+<p>又或者說</p>
+
+<h2 id="scrum-is-a-framework-it-implement-agile">Scrum is a Framework, it implement Agile</h2>
+
+<hr />
+
+<h1 id="origin-of-scrum">Origin of Scrum</h1>
+
+<ol>
+<li>The New, New Product Development Game*
+用新的方式, 來開發新的產品</li>
+<li>Iterative, Increamental Development, Timeboxes
+迭代(週期性), 增量式的軟體開發, 並且有時間限制(Deadline)</li>
+<li>Lean 的精神
+精實(Lean) 是 TOYOTA 生產線的其中一個方法論
+<br /></li>
+</ol>
+
+<p>以前生產車子都是每個組件大量生產, 專職分工
+訂一部車要2個月才能拿到, 但實際上在生產你車子的時間只有2天</p>
+
+<p>Cycle Time 的概念</p>
+
+<p>Kanban 也是 Lean 方法論的其中一個實踐</p>
+
+<p>Poppendieck 夫婦 將 TOYOTA 的 Lean 落實在軟體開發</p>
+
+<p>David J. Anderson 將 TOYOTA 的 Kanban 落實在軟體開發</p>
+</blockquote>
+
+<h1 id="scrum-框架的概念">Scrum 框架的概念</h1>
+
+<h3 id="team-有能力可以在-timebox-內去交付-shippable-product">Team 有能力可以在 Timebox 內去交付 Shippable Product</h3>
+
+<h3 id="並且可以在-cross-functional-中做到-self-organized">並且可以在 Cross-Functional 中做到 Self-Organized</h3>
+
+<hr />
+
+<h1 id="下面開始講述如何用-scrum-去落實-agile">下面開始講述如何用 Scrum 去落實 Agile</h1>
+
+<p>我簡單用一張圖帶過
+<img src="https://ppt.cc/fs6RYx@.jpg" alt="" /></p>
+
+<blockquote>
+<p>主要是在講述產品開發黃金鐵三角</p>
+
+<h2 id="以及敏捷宣言與-scrum-practice-的關係">以及敏捷宣言與 Scrum Practice 的關係</h2>
+
+<h1 id="inspect-adapt">Inspect &amp; Adapt</h1>
+
+<p>這一段主要講述 Goal 目標的訂定, 以終為始的概念</p>
+
+<h3 id="scope-不是你該糾結的問題-定好目標-關注目標">Scope 不是你該糾結的問題, 定好目標, 關注目標</h3>
+
+<h3 id="scope-不能變是因為你沒有在關注價值-impact-mapping">Scope 不能變是因為你沒有在關注價值 (Impact Mapping)</h3>
+</blockquote>
+
+<h2 id="cycle-縮小-feedback-加快">Cycle 縮小, Feedback 加快</h2>
+
+<blockquote>
+<p>Task -&gt; PBI<br />
+=&gt; Coach Team</p>
+
+<p>PBI -&gt; Inspect<br />
+=&gt; Coach PO</p>
+</blockquote>
+
+<p>筆記：</p>
+
+<ol>
+<li>PSPI : Potentially Shippable Product Increment</li>
+<li>PBI : Product Backlog Item ( Item 層級)</li>
+<li>Task : 就是團隊拆分的小黃卡片( Task 層級)</li>
+</ol>
+
+<p>Team 關注於 Task 層級的迭代優化, 也須往上關注 Item 層級的交付</p>
+
+<p>PO 關注 Item 層級的迭代優化, 也須往上關注 Inspect 層級的目標</p>
+
+<p><img src="https://ppt.cc/fdpzPx@.jpg" alt="" /></p>
+
+<hr />
+
+<h2 id="在-sprint-中-pbi-no-change-but-task-can-changes">在 Sprint 中, PBI No Change, but Task Can Changes.</h2>
+
+<h3 id="由-why-what-how-三個層級去拆解任務">由 Why -&gt; What -&gt; How 三個層級去拆解任務</h3>
+
+<blockquote>
+<p>來人啊, 上圖！
+<img src="https://ppt.cc/fgitOx@.jpg" alt="" /></p>
+</blockquote>
+
+<h3 id="額外再加碼問題與名言">額外再加碼問題與名言</h3>
+
+<ol>
+<li>PO &amp; Team 到底誰該寫 PBI(Product Backlog Item) ?
+&gt; 一起寫阿&hellip;</li>
+<li>一個晚了的 Project, 再加人進去只會更晚&hellip;</li>
+
+<li><h2 id="agile-靈活性響應變化">Agile : 靈活性響應變化</h2>
+
+<h1 id="松鼠漢堡的故事">松鼠漢堡的故事&hellip;</h1></li>
+</ol>
+
+<blockquote>
+<p>公開, 透明, 風險</p>
+
+<h2 id="最直接的風險承擔者-應該要是決策的人">最直接的風險承擔者, 應該要是決策的人</h2>
+
+<h1 id="mlbtix-的-practice-練習">MLBTix 的 Practice 練習</h1>
+
+<p>Risk Uncertainty</p>
+
+<p>Requirement Understanding</p>
+
+<p>User Involvement</p>
+
+<p>Cash flow =&gt; Security</p>
+
+<p>Time Schedule</p>
+</blockquote>
+
+<hr />
+
+<h1 id="dod-definition-of-done">DoD (Definition of Done)</h1>
+
+<h3 id="這是-team-與-po-之間的約定">這是 Team 與 PO 之間的約定</h3>
+
+<h2 id="not-done-backlog-items-should-not-be-demo-ed">Not done backlog items should not be demo-ed</h2>
+
+<blockquote>
+<h3 id="沒做完的半成品不該拿出來-丟人現眼-展示">沒做完的半成品不該拿出來 <del>丟人現眼</del> 展示</h3>
+
+<h3 id="這件事是-scrum-master-的職責">這件事是 Scrum Master 的職責</h3>
+</blockquote>
+
+<h2 id="done-分成兩個導向-產品導向-與-過程導向">Done 分成兩個導向： 產品導向 與 過程導向</h2>
+
+<p>最後是講述 Sprint Planning &amp; Sprint Backlog 的部分</p>
+
+<p>有點累了&hellip;. 明天再繼續吧 XD</p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://x790116.github.io/post/csm_day2/">呂毅 CSM Day2</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://x790116.github.io/post/csm_day2/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'David Zhang';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="https://x790116.github.iojs/ui.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="\/\/analytics.example.com\/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId',  2 ]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.example.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+
+
+
+</body>
+</html>
+
