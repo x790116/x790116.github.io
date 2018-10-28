@@ -6,7 +6,7 @@
     <description>Recent content in Csm on This is DZ&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <copyright>Copyright © 2018–2019, @Jingangz</copyright>
     <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://x790116.github.io/tags/csm/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>呂毅 CSM Day2</title>
-      <link>https://x790116.github.io/post/csm_day2/</link>
+      <link>https://x790116.github.io/2018/csm_day2/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://x790116.github.io/post/csm_day2/</guid>
+      <guid>https://x790116.github.io/2018/csm_day2/</guid>
       <description>2018-10-24(三) 呂毅 CSM Day2 Inspect &amp;amp; Adapt 昨天交付了 第一個 流水帳 版本的 Day1 心得
 仔細回想一下昨天的寫作方式, 就是一直看著自己的上課筆記
 然後跟瘋狂打字員般的將筆記中的片段輸入到電腦之中
@@ -35,10 +35,10 @@
     
     <item>
       <title>呂毅 CSM Day1</title>
-      <link>https://x790116.github.io/post/csm_day1/</link>
+      <link>https://x790116.github.io/2018/csm_day1/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://x790116.github.io/post/csm_day1/</guid>
+      <guid>https://x790116.github.io/2018/csm_day1/</guid>
       <description>2018-10-23(二) 呂毅 CSM Day1 終於開啟了第一篇寫部落格的計畫
 先前參加了 CSD, DevOpsDays 2018, 公司內部 AWS 教育訓練
 都是上課很認真, 下課很天真 (誤)

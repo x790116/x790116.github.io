@@ -6,7 +6,7 @@
     <description>Recent content on This is DZ&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <copyright>Copyright © 2018–2019, @Jingangz</copyright>
     <lastBuildDate>Sun, 28 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://x790116.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>呂毅 CSPO Day2</title>
-      <link>https://x790116.github.io/post/cspo_day2/</link>
+      <link>https://x790116.github.io/2018/cspo_day2/</link>
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://x790116.github.io/post/cspo_day2/</guid>
+      <guid>https://x790116.github.io/2018/cspo_day2/</guid>
       <description> 2018-10-26(五) 呂毅 CSPO Day2 以終為始 Scope 與 Time 之間的 Trade-off  Agile Product Ownership 英文 ： https://youtu.be/502ILHjX9EE
 簡中 ： https://youtu.be/DoFj3Y_St74
  如何先少投入一點, 但卻可以驗證效果？ User Story 強調的是 溝通 Impact Mapping &amp;amp; Stroy Mapping Spec By Example (SBE) Quality, 為了快, 卻越走越慢 Scrum PO Hole Picture </description>
@@ -25,11 +25,11 @@
     
     <item>
       <title>呂毅 CSPO Day1 &#43; 用系統思考指導組織設計</title>
-      <link>https://x790116.github.io/post/cspo_day1/</link>
+      <link>https://x790116.github.io/2018/cspo_day1/</link>
       <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://x790116.github.io/post/cspo_day1/</guid>
-      <description>2018-10-25(四) 呂毅 CSPO Day1 + 用系統思考指導組織設計 FIRST-ORDER FACTOR  專案開始之初, 首重(手中)看見全貌 中原標準時間： 2018-10-26(五) 23:30&amp;hellip;
+      <guid>https://x790116.github.io/2018/cspo_day1/</guid>
+      <description>2018-10-25(四) 呂毅 CSPO Day1 FIRST-ORDER FACTOR  專案開始之初, 首重(手中)看見全貌 中原標準時間： 2018-10-26(五) 23:30&amp;hellip;
 是的你沒看錯 我到了 2018-10-26(五) 最後 30 分鐘
  尚未交付 2018-10-25(四) 當天心得
 雖然我的後面幾段都是 2018-10-26(五) 23:30 前都已經完成
@@ -45,10 +45,10 @@
     
     <item>
       <title>呂毅 CSM Day2</title>
-      <link>https://x790116.github.io/post/csm_day2/</link>
+      <link>https://x790116.github.io/2018/csm_day2/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://x790116.github.io/post/csm_day2/</guid>
+      <guid>https://x790116.github.io/2018/csm_day2/</guid>
       <description>2018-10-24(三) 呂毅 CSM Day2 Inspect &amp;amp; Adapt 昨天交付了 第一個 流水帳 版本的 Day1 心得
 仔細回想一下昨天的寫作方式, 就是一直看著自己的上課筆記
 然後跟瘋狂打字員般的將筆記中的片段輸入到電腦之中
@@ -66,10 +66,10 @@
     
     <item>
       <title>呂毅 CSM Day1</title>
-      <link>https://x790116.github.io/post/csm_day1/</link>
+      <link>https://x790116.github.io/2018/csm_day1/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://x790116.github.io/post/csm_day1/</guid>
+      <guid>https://x790116.github.io/2018/csm_day1/</guid>
       <description>2018-10-23(二) 呂毅 CSM Day1 終於開啟了第一篇寫部落格的計畫
 先前參加了 CSD, DevOpsDays 2018, 公司內部 AWS 教育訓練
 都是上課很認真, 下課很天真 (誤)
@@ -104,25 +104,14 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Hugo</title>
       <link>https://x790116.github.io/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://x790116.github.io/about/</guid>
-      <description>Hugo is a static site engine written in Go.
+      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://x790116.github.io/contact/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://x790116.github.io/contact/</guid>
-      <description> First Name  Last Name  E-Mail  City     Send   </description>
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
@@ -131,8 +120,8 @@ Setup Some fun facts about Hugo:
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://x790116.github.io/_goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
     </item>
     
     <item>
@@ -141,12 +130,12 @@ This document is a brief primer on using go templates.</description>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://x790116.github.io/_hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
+More complete instructions are available at Install Hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>
