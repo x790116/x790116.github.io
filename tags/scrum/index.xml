@@ -6,6 +6,8 @@
     <description>Recent content in Scrum on This is DZ&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>x790116@gmail.com (David Zhang)</managingEditor>
+    <webMaster>x790116@gmail.com (David Zhang)</webMaster>
     <copyright>Copyright © 2018–2019, @Jingangz</copyright>
     <lastBuildDate>Sun, 28 Oct 2018 00:00:00 +0000</lastBuildDate>
     
@@ -16,7 +18,7 @@
       <title>呂毅 CSPO Day2 &#43; 四天心得</title>
       <link>https://x790116.github.io/2018/cspo_day2/</link>
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
-      
+      <author>x790116@gmail.com (David Zhang)</author>
       <guid>https://x790116.github.io/2018/cspo_day2/</guid>
       <description>2018-10-26(五) 呂毅 CSPO Day2 以終為始 終於來到這 4 天 CSM + CSPO 課程的最後一天心得+筆記了
 現在時間是 2018-10-28(日) 的晚餐時間 - 19:00
@@ -33,7 +35,7 @@
       <title>呂毅 CSPO Day1 &#43; 用系統思考指導組織設計</title>
       <link>https://x790116.github.io/2018/cspo_day1/</link>
       <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
-      
+      <author>x790116@gmail.com (David Zhang)</author>
       <guid>https://x790116.github.io/2018/cspo_day1/</guid>
       <description>2018-10-25(四) 呂毅 CSPO Day1 FIRST-ORDER FACTOR  專案開始之初, 首重(手中)看見全貌 中原標準時間： 2018-10-26(五) 23:30&amp;hellip;
  是的你沒看錯 我到了 2018-10-26(五) 最後 30 分鐘
@@ -53,7 +55,7 @@
       <title>呂毅 CSM Day2</title>
       <link>https://x790116.github.io/2018/csm_day2/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
+      <author>x790116@gmail.com (David Zhang)</author>
       <guid>https://x790116.github.io/2018/csm_day2/</guid>
       <description>2018-10-24(三) 呂毅 CSM Day2 Inspect &amp;amp; Adapt 昨天交付了 第一個 流水帳 版本的 Day1 心得
 仔細回想一下昨天的寫作方式, 就是一直看著自己的上課筆記
@@ -74,7 +76,7 @@
       <title>呂毅 CSM Day1</title>
       <link>https://x790116.github.io/2018/csm_day1/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
+      <author>x790116@gmail.com (David Zhang)</author>
       <guid>https://x790116.github.io/2018/csm_day1/</guid>
       <description>2018-10-23(二) 呂毅 CSM Day1 終於開啟了第一篇寫部落格的計畫
 先前參加了 CSD, DevOpsDays Taipei 2018, 公司內部 AWS 教育訓練
